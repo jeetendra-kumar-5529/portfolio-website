@@ -6,3 +6,4 @@ services:
     repo: https://github.com/jeetendra-kumar-5529/portfolio-website
     branch: main
     dockerfilePath: ./Dockerfile
+    dockerCommand: apache2-foreground
