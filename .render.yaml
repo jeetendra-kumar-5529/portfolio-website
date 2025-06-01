@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: my-portfolio
+    name: portfolio-website
     env: docker
     plan: free
-    region: oregon
+    repo: https://github.com/jeetendra-kumar-5529/portfolio-website
     branch: main
-    rootDir: .
+    dockerfilePath: ./Dockerfile
