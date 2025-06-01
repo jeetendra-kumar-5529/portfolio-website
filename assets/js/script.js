@@ -63,3 +63,30 @@ sr.reveal('.portfolio-buttons', {origin: 'top'});
 sr.reveal('.testimonial-container', {origin: 'bottom'});
 sr.reveal('.contact-content', {origin: 'top'});
 sr.reveal('.copyright', {origin: 'bottom'});
+
+// Download CV
+
+window.downloadCV = function() {
+    const link = document.createElement('a');
+    link.href = 'assets/cv/Jeetendra-kumar.pdf';
+    link.download = 'Jeetendra-kumar.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+// Check if success query parameter is set
+window.onload = function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('success') === '1') {
+        Swal.fire({
+            icon: 'success',
+            title: 'Message Sent',
+            text: 'Your message has been sent successfully!',
+            confirmButtonColor: '#9b2fff'
+        });
+
+        // Remove query param from URL without reloading
+        window.history.replaceState({}, document.title, window.location.pathname);
+    }
+}

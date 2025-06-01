@@ -21,9 +21,9 @@
             <ul class="navlist">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <!-- <li><a href="#services">Services</a></li> -->
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
+                <!-- <li><a href="#testimonial">Testimonial</a></li> -->
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="nav-icons">
@@ -40,19 +40,21 @@
             <div class="left">
                 <h4>Hello...</h4>
                 <h1>I'm <span>Jeetendra Kumar</span></h1>
-                <h3>A Web Developer</h3>
-                <p>Welcome to my portfolio website! A seasoned Web Developer with expertise in a variety of technologies. My skill set includes ReactJs, NodeJs, ExpressJs, Laravel, and Codeignitor. With a passion for crafting dynamic and user-friendly web experiences, I strive to deliver innovative solutions tailored to meet diverse client needs. Explore my projects and let's collaborate to bring your ideas to life!</p>
-                <button class="btn overlay">
+                <h3 style="margin-top: 10px;">Flutter & Native Android Developer</h3>
+                <p>
+                    Welcome to my portfolio! I'm a passionate mobile developer with over 1 year of hands-on experience in building intuitive and high-performance apps using Flutter and native Android (Java/Kotlin). I’ve worked on a variety of real-world projects involving REST APIs, Google Maps, Firebase, and more. I focus on creating scalable, responsive, and user-friendly applications for both Android and cross-platform environments.
+                </p>                
+                <button class="btn overlay" onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=jeetendrakumar5529@gmail.com&su=Hiring%20for%20Flutter%20Developer&body=Hi%20Jeetendra,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.', '_blank')">
                     <span>Hire me</span>
                 </button>
                 <div class="social-icons-container">
                     <p>Follow me on Social media</p>
                     <div class="social-icons">
-                        <a href=""><i class="ri-facebook-line"></i></a>
-                        <a href=""><i class="ri-github-line"></i></a>
-                        <a href=""><i class="ri-twitter-line"></i></a>
-                        <a href=""><i class="ri-linkedin-line"></i></a>
-                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <!-- <a href=""><i class="ri-facebook-line"></i></a> -->
+                        <a href="https://www.github.com/jeetendra-kumar-5529"><i class="ri-github-line"></i></a>
+                        <a href="https://www.linkedin.com/in/jkay5529"><i class="ri-linkedin-line"></i></a>
+                        <a href="https://www.x.com/@Jeet5529"><i class="ri-twitter-line"></i></a>
+                        <!-- <a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a> -->
                     </div>
                 </div>
             </div>
@@ -67,16 +69,17 @@
     <section class="about" id="about">
         <div class="container about-container">
             <div class="left">
-                <img src="assets/images/about.png" alt="">
+                <img src="assets/images/me2.jpeg" alt="">
             </div>
             <div class="right">
                 <div class="title">
                     <h2>About <span>Me</span></h2>
                 </div>
-                <h3>I'm <span>Tanmay Singh</span> a Developer & Designer</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum libero facere autem dignissimos, mollitia ea alias harum eaque nobis accusamus. Assumenda ea harum voluptas molestias nobis suscipit ab expedita rem!
-                Doloribus, quibusdam veritatis consectetur, praesentium libero aperiam suscipit assumenda quas labore et hic in nisi quia nesciunt, tenetur unde? Sit sapiente repellat natus laudantium, delectus autem voluptatum? Hic, tempore quis.</p>
-                <button class="btn overlay">
+                <h3>I'm <span>Jeetendra Kumar</span> a Developer & Designer</h3>
+                <p>
+                    I'm a passionate Flutter & Native Android Developer with experience building real-world apps across ride-booking, e-commerce, and utility domains. I've worked on apps like Care Concierge (ride app with Geolocation API and UI enhancements), Care Cart (e-commerce app with UPC scanner), and iResident (home services app with 2-step verification via email and Twilio). On the native side, I developed mEinstein using Jetpack Compose, integrating full authentication and local storage with Room DB. I focus on clean UI, secure flows, and scalable mobile solutions.
+                </p>
+                <button class="btn overlay" onclick="downloadCV()">
                     <span>Download CV</span>
                 </button>
                 <div class="container">
@@ -84,7 +87,7 @@
                         <div class="outer-circle">
                             <div class="inner-circle">
                                 <div class="html-number number">
-                                    <h4>Javacript</h4>
+                                    <h4>Flutter</h4>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +106,7 @@
                         <div class="outer-circle">
                             <div class="inner-circle">
                                 <div class="html-number number">
-                                    <h4>React Js</h4>
+                                    <h4>Dart</h4>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +125,26 @@
                         <div class="outer-circle">
                             <div class="inner-circle">
                                 <div class="html-number number">
-                                    <h4>Node Js</h4>
+                                    <h4>Kotlin</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <svg xmlns="https://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#9b2fff" />
+                                    <stop offset="100%" stop-color="#ff2f48" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="80" cy="80" r="70"
+                            stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="outer-circle">
+                            <div class="inner-circle">
+                                <div class="html-number number">
+                                    <h4>Firebase</h4>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +166,7 @@
 
     <!-- -----------------------Services------------------------- -->
 
-    <section class="services" id="services">
+    <!-- <section class="services" id="services">
         <div class="title">
             <h2>Services i <span>provide</span></h2>
         </div>
@@ -192,7 +214,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ---------------------Portfolio----------------------------- -->
 
@@ -205,50 +227,131 @@
                 <button class="btn portfolio-tab active" onclick="tabOpen('all')">All</button>
                 <button class="btn portfolio-tab" onclick="tabOpen('webdevelop')">Web Develop</button>
                 <button class="btn portfolio-tab" onclick="tabOpen('appdevelop')">App Develop</button>
-                <button class="btn portfolio-tab" onclick="tabOpen('digitalmarketing')">Digital Marketing</button>
             </div>
             <div class="tab-content active-content" id="all">
-                <div class="image"><img src="assets/images/portfolio (1).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (2).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (3).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (21).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (4).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (19).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (14).jpg" alt=""></div>
+                <div class="project-card">
+                    <img src="assets/images/careconcierge.png" alt="Care Concierge">
+                    <div class="overlay-content">
+                        <h4>Care Concierge</h4>
+                        <p>Ride-booking app like Ola/Uber.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.gilsonshousingpartners.concierge" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/carecart.png" alt="Care Cart">
+                    <div class="overlay-content">
+                        <h4>Care Cart</h4>
+                        <p>eCommerce app like Blinkit/Zepto.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.gilsonhousingpartners.carecart" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/iresident.png" alt="iResident">
+                    <div class="overlay-content">
+                        <h4>iResident</h4>
+                        <p>Home Services app like Urban Company.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.app.iresident" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/meinstein.png" alt="mEinstein">
+                    <div class="overlay-content">
+                        <h4>mEinstein</h4>
+                        <p>Personal AI assistant app.</p>
+                        <a href="https://meinstein.ai/" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/hinduvahini.jpg" alt="Hindu Vahini">
+                    <div class="overlay-content">
+                        <h4>Hindu Vahini</h4>
+                        <p>Hindu Organisation Website.</p>
+                        <a href="https://www.hinduvahini.in/" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/digitalpathsala.png" alt="Digital Pathshala">
+                    <div class="overlay-content">
+                        <h4>Digital Pathshala</h4>
+                        <p>Educational Coaching Website.</p>
+                        <a href="https://github.com/jeetendra-kumar-5529/e-learning-web-app" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/portfolio (8).jpg" alt="Portfolio">
+                    <div class="overlay-content">
+                        <h4>Portfolio</h4>
+                        <p>Portfolio Website.</p>
+                        <a href="https://github.com/jeetendra-kumar-5529/portfolio-website" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
             </div>
             <div class="tab-content" id="webdevelop">
-                <div class="image"><img src="assets/images/portfolio (18).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (6).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (11).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (12).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (8).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (9).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (7).jpg" alt=""></div>
+                <div class="project-card">
+                    <img src="assets/images/hinduvahini.jpg" alt="Hindu Vahini">
+                    <div class="overlay-content">
+                        <h4>Hindu Vahini</h4>
+                        <p>Hindu Organisation Website.</p>
+                        <a href="https://www.hinduvahini.in/" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/digitalpathsala.png" alt="Digital Pathshala">
+                    <div class="overlay-content">
+                        <h4>Digital Pathshala</h4>
+                        <p>Educational Coaching Website.</p>
+                        <a href="https://github.com/jeetendra-kumar-5529/e-learning-web-app" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/portfolio (8).jpg" alt="Portfolio">
+                    <div class="overlay-content">
+                        <h4>Portfolio</h4>
+                        <p>Portfolio Website.</p>
+                        <a href="https://github.com/jeetendra-kumar-5529/portfolio-website" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
             </div>
             <div class="tab-content" id="appdevelop">
-                <div class="image"><img src="assets/images/portfolio (1).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (5).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (8).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (13).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (4).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (14).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (11).jpg" alt=""></div>
-            </div>
-            <div class="tab-content" id="digitalmarketing">
-                <div class="image"><img src="assets/images/portfolio (10).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (20).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (3).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (21).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (4).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (9).jpg" alt=""></div>
-                <div class="image"><img src="assets/images/portfolio (10).jpg" alt=""></div>
+                <div class="project-card">
+                    <img src="assets/images/careconcierge.png" alt="Care Concierge">
+                    <div class="overlay-content">
+                        <h4>Care Concierge</h4>
+                        <p>Ride-booking app like Ola/Uber.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.gilsonshousingpartners.concierge" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                 <div class="project-card">
+                    <img src="assets/images/carecart.png" alt="Care Concierge">
+                    <div class="overlay-content">
+                        <h4>Care Cart</h4>
+                        <p>eCommerce app like Blinkit/Zepto.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.gilsonhousingpartners.carecart" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/iresident.png" alt="Care Concierge">
+                    <div class="overlay-content">
+                        <h4>iResident</h4>
+                        <p>Home Services app like Urban Company.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.app.iresident" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/images/meinstein.png" alt="Care Concierge">
+                    <div class="overlay-content">
+                        <h4>mEinstein</h4>
+                        <p>Personal AI assistant app.</p>
+                        <a href="https://meinstein.ai/" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- --------------------Testimonial------------------------------- -->
 
-    <section class="testimonial" id="testimonial">
+    <!-- <section class="testimonial" id="testimonial">
         <div class="title">
             <h2>My <span>Work</span></h2>
         </div>
@@ -284,7 +387,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- -----------------------Contact----------------------- -->
 
@@ -300,7 +403,7 @@
                     </div>
                     <div class="box-info">
                         <h4>Phone Number:</h4>
-                        <span>+0123456789</span>
+                        <span>+91 9682755301</span>
                     </div>
                 </div>
                 <div class="box">
@@ -309,7 +412,7 @@
                     </div>
                     <div class="box-info">
                         <h4>Address:</h4>
-                        <span>New Delhi, India</span>
+                        <span>Lucknow, India</span>
                     </div>
                 </div>
                 <div class="box">
@@ -318,20 +421,20 @@
                     </div>
                     <div class="box-info">
                         <h4>Email Address:</h4>
-                        <span>info@gmail.com</span>
+                        <span>jeetendrakumar5529@gmail.com</span>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <form action="" class="contact-form">
+                <form action="contact-code.php" class="contact-form", method="post">
                     <div class="form-box">
-                        <input type="text" placeholder="Enter Your Name" name="" id="" required>
+                        <input type="text" placeholder="Enter Your Name" name="name" id="" required>
                     </div>
                     <div class="form-box">
-                        <input type="email" placeholder="Enter Your Email" name="" id="" required>
+                        <input type="email" placeholder="Enter Your Email" name="email" id="" required>
                     </div>
                     <div class="form-box">
-                        <textarea name="Message" id="" cols="20" rows="10"></textarea>
+                        <textarea name="message" id="" cols="20" rows="10"></textarea>
                     </div>
                     <button type="submit" class="btn overlay">
                         <span>Send Message</span>
@@ -342,13 +445,13 @@
     </section>
 
     <div class="copyright">
-        <p>Copyright &copy; | This website is made with <i class="ri-heart-line"></i> by <span>Tanmay Singh</span></p>
+        <p>Copyright &copy; | This website is made with <i class="ri-heart-line"></i> by <span>Jeetendra Kumar</span></p>
     </div>
 
     <!-- Animation -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Script -->
     <script src="assets/js/script.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
   </body>
 </html>
